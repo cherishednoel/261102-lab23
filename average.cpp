@@ -6,7 +6,7 @@ int main(int argc, char *argv[]) {
     else {
         cout << "---------------------------------\n";
         cout << "Average of " << argc-1 << " numbers = ";
-        int sum = 0;
+        float sum = 0;
         for(int i = 1; i < argc; i++) {
             sum += atoi(argv[i]);
         }
